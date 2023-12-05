@@ -1,0 +1,184 @@
+
+html{
+    background: linear-gradient(
+        to left,
+        skyblue,
+        rgb(3, 80, 168)
+);
+}
+.resident__button{
+    height: 25px;
+    width: 70px;
+}
+.resident__button:hover{
+        background: linear-gradient(
+                           to left,
+                           yellow,
+                           orange,
+                           yellow
+        );
+    }
+
+.resident__input{
+    height: 25px;
+}
+.resident__tittle{
+    text-align: center;
+    font-size: 70px;
+    color: yellow;
+    background: linear-gradient(
+        to left,
+        skyblue,
+        rgb(3, 80, 168)
+);
+    margin-top: 3px;
+    margin-bottom: 20px;
+}
+
+.container{
+    background: linear-gradient(
+        to left,
+        skyblue,
+        rgb(3, 80, 168)
+);
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
+   place-items: center;
+  
+   row-gap: 3em;
+   padding-top: 2em;
+   padding-bottom: 8px;
+   margin-top: 1em;
+   
+}
+
+.resident__search{
+    display: flex;
+    
+    justify-content: center;
+    
+}
+
+.resident {
+    width: 100%;
+    max-width: 290px;
+    height: 640px;
+    background: linear-gradient(
+                       to left,
+                       yellow,
+                       orange,
+                       yellow
+    );
+    color: rgb(91, 12, 165);
+    border-radius: 1em;
+    overflow: hidden;
+    transition: transform 100ms ease;
+    border-style:black 0.5em solid;
+    display:grid;
+    
+    
+}
+.resident:hover{
+    transform: scale(1.03);
+}
+.resident__header{
+    position: relative;
+    height: 330px;
+    
+}
+.resident__status{
+    position: absolute;
+    top: 2.4em;
+    background-color:#072226;
+    color: white;
+    width: 28%;
+    padding: 0.3em 0.7em;
+    border-radius: 0 0.5em 0.5em 0;
+    display: flex;
+    gap: 0.7em;
+    align-items: center;
+}
+.resident__image{
+    height: 320px;
+    width: 280px;
+   
+    
+}
+.resident__status__circle{
+  display: block;
+  width: 14px;
+  aspect-ratio: 1;
+  background-color: #aaa;
+  border-radius: 50%;
+}
+.Alive{
+    background-color: green;
+}
+.Dead{
+    background-color: red;
+}
+
+.resident__body{
+    padding: 1.5em 1em 2.5em;
+    width: 100%
+}
+.resident__name{
+    text-align: center;
+    margin-bottom: 0.3em;
+    font-weight: 700;
+    color: black;
+}
+.resident__hr{
+    margin-bottom: 0.5em;
+}
+.resident__separator{
+    margin-bottom: 0.5em;
+    border-color: #aaa3;
+}
+.resident__list{
+    display: grip;
+    gap: 0.7em;
+}
+
+.resident__label{
+    color: rgb(0, 14, 14);
+}
+.resident__value{
+    font-weight: 500;
+    text-align: justify;
+    display: flex;
+    flex-direction: column;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    gap: 2em;
+    margin-bottom: 0.6em;
+}
+
+.btn__previous{
+    height: 25px;
+    width: 90px;
+
+}
+
+.btn__next{
+    height: 25px;
+    width: 90px;
+}
+.btn__previous:hover{
+    background: linear-gradient(
+                       to left,
+                       yellow,
+                       orange,
+                       yellow
+    );
+}
+.btn__next:hover{
+    background: linear-gradient(
+                       to left,
+                       yellow,
+                       orange,
+                       yellow
+    );
+}
